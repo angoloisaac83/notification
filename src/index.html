@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <title>Frontend Mentor | Interactive comments section</title>
+    <link rel="stylesheet" href="/dist/output.css">
+</head>
+<body>
+    <section class="w-full h-fit flex flex-col py-[20px] items-center gap-[20px] justify-center bg-[#e3e3eb]">
+        <section id="all-sect" class="flex gap-[20px] flex-col w-fit h-fit items-center justify-center">
+        <div class="w-[45%] smm:w-[90%] smm:flex-col py-[20px] h-fit items-center justify-center bg-white flex px-[10px] rounded-md">
+            <span id="counter" class="w-fit smm:hidden h-[80%] justify-between text-[#5457b6] font-medium items-center flex flex-col gap-[5px] bg-[#e3e3eb] px-[8px] py-[5px] rounded-sm">
+                <img id="add" src="/images/icon-plus.svg" alt="">
+                <p>0</p>
+                <img id="minus" src="/images/icon-minus.svg" alt="">
+            </span>
+            <div class="w-full items-center flex justify-center flex-col pl-[15px]">
+                <span class="w-full h-fit flex items-center justify-between">
+                <ul class="flex gap-[10px] items-center justify-center">
+                    <img class="w-[35px]" src="/images/avatars/image-amyrobson.png" alt="">
+                    <b>amyrobson</b>
+                    <li>1 month ago</li>
+                </ul>
+                    <span id="reply-btn" class="flex smm:hidden items-center gap-[5px] font-medium text-[#5457b6] justify-center">
+                        <img src="/images/icon-reply.svg" alt="">
+                        Reply
+                    </span>
+                </span>
+                <p id="text" class="text-[gray] text-[15px] pt-[10px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis amet veniam laborum odio deserunt suscipit eveniet adipisci ipsum ex neque numquam iure omnis asperiores at incidunt ut repellat, enim quas.</p>
+            </div>
+            <div class="smm:flex w-full hidden pt-[10px] justify-between items-center">
+                <span id="counter" class="w-fit smm:flex-row smm:flex hidden h-[80%] justify-between text-[#5457b6] font-medium items-center flex-col gap-[5px] bg-[#e3e3eb] px-[8px] py-[5px] rounded-sm">
+                    <img id="add" src="/images/icon-plus.svg" alt="">
+                    <p>0</p>
+                    <img id="minus" src="/images/icon-minus.svg" alt="">
+                </span>
+                <span id="reply-btn" class="smm:flex hidden items-center gap-[5px] font-medium text-[#5457b6] justify-center">
+                    <img src="/images/icon-reply.svg" alt="">
+                    Reply
+                </span>
+            </div>
+        </div>
+        <div id="reply" class="w-[45%] smm:w-[90%] smm:m-auto py-[20px] hidden h-fit gap-[12px] items-start justify-center bg-white px-[10px] rounded-md">
+            <img class="w-[40px]" src="/images/avatars/image-juliusomo.png" alt="">
+            <textarea name="" id="" class="h-[50px] w-[73%] border-[1.5px] pl-[10px] placeholder:text-sm pt-[5px] rounded-md border-[gray]" placeholder="Add a comment..." cols="30" rows="10"></textarea>
+            <button class="w-fit h-fit px-[10px] py-[5px] rounded-md bg-[#5457b6] text-white text-[13px]">REPLY</button>
+        </div>
+    </section>
+    <section id="all-sect" class="flex gap-[20px] flex-col w-fit h-fit items-center justify-center">
+        <div class="w-[45%] smm:w-[90%] smm:flex-col py-[20px] h-fit items-center justify-center bg-white flex px-[10px] rounded-md">
+            <span id="counter" class="w-fit smm:hidden h-[80%] justify-between text-[#5457b6] font-medium items-center flex flex-col gap-[5px] bg-[#e3e3eb] px-[8px] py-[5px] rounded-sm">
+                <img id="add" src="/images/icon-plus.svg" alt="">
+                <p>0</p>
+                <img id="minus" src="/images/icon-minus.svg" alt="">
+            </span>
+            <div class="w-full items-center flex justify-center flex-col pl-[15px]">
+                <span class="w-full h-fit flex items-center justify-between">
+                <ul class="flex gap-[10px] items-center justify-center">
+                    <img class="w-[35px]" src="/images/avatars/image-maxblagun.png" alt="">
+                    <b>maxblagun</b>
+                    <li>2 weeks ago</li>
+                </ul>
+                   <span id="reply-btn" class="flex smm:hidden items-center gap-[5px] font-medium text-[#5457b6] justify-center">
+                        <img src="/images/icon-reply.svg" alt="">
+                        Reply
+                    </span>
+                </span>
+                <p id="text" class="text-[gray] text-[15px] pt-[10px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis amet veniam laborum odio deserunt suscipit eveniet adipisci ipsum ex neque numquam iure omnis asperiores at incidunt ut repellat, enim quas.</p>
+            </div>
+            <div class="smm:flex w-full hidden pt-[10px] justify-between items-center">
+                <span id="counter" class="w-fit smm:flex-row smm:flex hidden h-[80%] justify-between text-[#5457b6] font-medium items-center flex-col gap-[5px] bg-[#e3e3eb] px-[8px] py-[5px] rounded-sm">
+                    <img id="add" src="/images/icon-plus.svg" alt="">
+                    <p>0</p>
+                    <img id="minus" src="/images/icon-minus.svg" alt="">
+                </span>
+                <span id="reply-btn" class="smm:flex hidden items-center gap-[5px] font-medium text-[#5457b6] justify-center">
+                    <img src="/images/icon-reply.svg" alt="">
+                    Reply
+                </span>
+            </div>
+        </div>
+        </div>
+        <div id="reply" class="w-[45%] smm:w-[90%] smm:m-auto py-[20px] hidden h-fit gap-[12px] items-start justify-center bg-white px-[10px] rounded-md">
+            <img class="w-[40px]" src="/images/avatars/image-juliusomo.png" alt="">
+            <textarea name="" id="" class="h-[50px] w-[73%] border-[1.5px] pl-[10px] placeholder:text-sm pt-[5px] rounded-md border-[gray]" placeholder="Add a comment..." cols="30" rows="10"></textarea>
+            <button class="w-fit h-fit px-[10px] py-[5px] rounded-md bg-[#5457b6] text-white text-[13px]">REPLY</button>
+        </div>
+    </section>
+    <section id="all-sect" class="flex gap-[20px] flex-col w-fit h-fit items-center justify-center">
+        <div class="w-[37%] smm:ml-[0%] ml-[8%] smm:w-[90%] smm:flex-col py-[20px] h-fit items-center justify-center bg-white flex px-[10px] rounded-md">
+            <span id="counter" class="w-fit smm:hidden h-[80%] justify-between text-[#5457b6] font-medium items-center flex flex-col gap-[5px] bg-[#e3e3eb] px-[8px] py-[5px] rounded-sm">
+                <img id="add" src="/images/icon-plus.svg" alt="">
+                <p>0</p>
+                <img id="minus" src="/images/icon-minus.svg" alt="">
+            </span>
+            <div class="w-full items-center flex justify-center flex-col pl-[15px]">
+                <span class="w-full h-fit flex items-center justify-between">
+                <ul class="flex gap-[10px] items-center justify-center">
+                    <img class="w-[35px]" src="/images/avatars/image-ramsesmiron.png" alt="">
+                    <b>ramsesmiron</b>
+                    <li>2 weeks ago</li>
+                </ul>
+                   <span id="reply-btn" class="flex smm:hidden items-center gap-[5px] font-medium text-[#5457b6] justify-center">
+                        <img src="/images/icon-reply.svg" alt="">
+                        Reply
+                    </span>
+                </span>
+                <p id="text" class="text-[gray] text-[15px] pt-[10px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis amet veniam laborum odio deserunt suscipit eveniet adipisci ipsum ex neque numquam iure omnis asperiores at incidunt ut repellat, enim quas.</p>
+            </div>
+            <div class="smm:flex w-full hidden pt-[10px] justify-between items-center">
+                <span id="counter" class="w-fit smm:flex-row smm:flex hidden h-[80%] justify-between text-[#5457b6] font-medium items-center flex-col gap-[5px] bg-[#e3e3eb] px-[8px] py-[5px] rounded-sm">
+                    <img id="add" src="/images/icon-plus.svg" alt="">
+                    <p>0</p>
+                    <img id="minus" src="/images/icon-minus.svg" alt="">
+                </span>
+                <span id="reply-btn" class="smm:flex hidden items-center gap-[5px] font-medium text-[#5457b6] justify-center">
+                    <img src="/images/icon-reply.svg" alt="">
+                    Reply
+                </span>
+            </div>
+        </div>
+        <div id="reply" class="w-[45%] smm:w-[90%] smm:m-auto py-[20px] hidden h-fit gap-[12px] items-start justify-center bg-white px-[10px] rounded-md">
+            <img class="w-[40px]" src="/images/avatars/image-juliusomo.png" alt="">
+            <textarea name="" id="" class="h-[50px] w-[73%] border-[1.5px] pl-[10px] placeholder:text-sm pt-[5px] rounded-md border-[gray]" placeholder="Add a comment..." cols="30" rows="10"></textarea>
+            <button class="w-fit h-fit px-[10px] py-[5px] rounded-md bg-[#5457b6] text-white text-[13px]">REPLY</button>
+        </div>
+    </section>
+        <span id="line" class="w-[2px] smm:hidden h-[60%] bg-[#cccccc] absolute ml-[-38%] rounded-full mt-[20%]"></span>
+        <section id="all-sect" class="flex gap-[20px] flex-col w-fit h-fit items-center justify-center">
+        <div id="alls" class="w-[37%] smm:flex-col smm:w-[90%] smm:ml-[0%] ml-[8%] py-[20px] h-fit items-center justify-center bg-white flex px-[10px] rounded-md">
+            <span id="counter" class="w-fit smm:hidden h-[80%] justify-between text-[#5457b6] font-medium items-center flex flex-col gap-[5px] bg-[#e3e3eb] px-[8px] py-[5px] rounded-sm">
+                <img id="add" src="/images/icon-plus.svg" alt="">
+                <p>0</p>
+                <img id="minus" src="/images/icon-minus.svg" alt="">
+            </span>
+            <div class="w-full items-center flex justify-center flex-col pl-[15px]">
+                <span class="w-full h-fit flex items-center justify-between">
+                <ul class="flex w-fit gap-[10px] items-center justify-center">
+                    <img class="w-[35px]" src="/images/avatars/image-juliusomo.png" alt="">
+                    <b>juliusomo</b>
+                    <button class="w-fit h-fitc text-sm px-[7px] rounded-sm text-white bg-[#5457b6]">you</button>
+                    <li class="text-sm">2 weeks ago</li>
+                </ul>
+                <ul class="flex smm:hidden gap-[5px]">
+                    <li id="delete" class="flex items-center justify-center gap-[5px]"><img src="/images/icon-delete.svg" alt="">Delete</li>
+                    <li id="reply-btn" class="flex items-center justify-center gap-[5px]"><img src="/images/icon-edit.svg" alt="">Edit</li>
+                </ul>
+                </span>
+                <p id="text" class="text-[gray] text-[15px] pt-[10px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis amet veniam laborum odio deserunt suscipit eveniet adipisci ipsum ex neque numquam iure omnis asperiores at incidunt ut repellat, enim quas.</p>
+            </div>
+            <div class="smm:flex w-full hidden pt-[10px] justify-between items-center">
+                <span id="counter" class="w-fit smm:flex-row smm:flex hidden h-[80%] justify-between text-[#5457b6] font-medium items-center flex-col gap-[5px] bg-[#e3e3eb] px-[8px] py-[5px] rounded-sm">
+                    <img id="add" src="/images/icon-plus.svg" alt="">
+                    <p>0</p>
+                    <img id="minus" src="/images/icon-minus.svg" alt="">
+                </span>
+                <ul class="smm:flex hidden gap-[5px]">
+                    <li id="delete" class="flex items-center justify-center gap-[5px]"><img src="/images/icon-delete.svg" alt="">Delete</li>
+                    <li id="reply-btn" class="flex items-center justify-center gap-[5px]"><img src="/images/icon-edit.svg" alt="">Edit</li>
+                </ul>
+            </div>
+        </div>
+
+        </div>
+        <div id="reply" class="w-[45%] smm:w-[90%] smm:m-auto py-[20px] hidden h-fit gap-[12px] items-start justify-center bg-white px-[10px] rounded-md">
+            <img class="w-[40px]" src="/images/avatars/image-juliusomo.png" alt="">
+            <textarea name="" id="" class="h-[50px] w-[73%] border-[1.5px] pl-[10px] placeholder:text-sm pt-[5px] rounded-md border-[gray]" placeholder="Add a comment..." cols="30" rows="10"></textarea>
+            <button class="w-fit h-fit px-[10px] py-[5px] rounded-md bg-[#5457b6] text-white text-[13px]">SEND</button>
+        </div>
+    </section>
+        <div class="w-[45%] smm:flex-col smm:w-[90%] py-[20px] h-fit gap-[12px] items-start justify-center bg-white flex px-[10px] rounded-md">
+            <img class="w-[40px] smm:hidden" src="/images/avatars/image-juliusomo.png" alt="">
+            <textarea name="" id="" class="h-[50px] smm:w-[95%] w-[73%] border-[1.5px] pl-[10px] placeholder:text-sm pt-[5px] rounded-md border-[gray]" placeholder="Add a comment..." cols="30" rows="10"></textarea>
+            <button class="w-fit smm:hidden h-fit px-[10px] py-[5px] rounded-md bg-[#5457b6] text-white text-[13px]">SEND</button>
+            <ul class="smm:flex px-[10px] gap-[5px] justify-between items-center w-full hidden">
+                <img class="w-[40px] smm:flex hidden" src="/images/avatars/image-juliusomo.png" alt="">
+                <button class="w-fit smm:flex hidden h-fit px-[10px] py-[5px] rounded-md bg-[#5457b6] text-white text-[13px]">SEND</button>
+            </ul>
+        </div>
+        <section id="confirmation" class="w-full h-[100vh] top-0 bg-[rgba(0,0,0,0.44)] fixed hidden place-items-center">
+            <div class="w-[23%] smm:h-[25%] smm:gap-[20px] smm:w-[80%] gap-[10px] h-[30%] flex flex-col pt-[25px] pl-[25px] pr-[10px] bg-white rounded-lg">
+                <p class="text-2xl text-[#67727e] font-semibold">Delete Comment</p>
+                <p class="text-[#67727e] text-sm">Are you sure you want to delete this comment? This will remove the comment and cant be undone.</p>
+                <span class="flex w-fit items-center justify-center gap-[6px]">
+                    <button onclick="cancel()" class="bg-[#67727e] text-white text-[12px] px-[13px] py-[6px] rounded-sm">NO, CANCEL</button>
+                    <button onclick="confirms()" class="bg-[#ed6468] text-white text-[12px] px-[13px] py-[6px] rounded-sm">YES, DELETE</button>
+                </span>
+            </div>
+        </section>
+    </section>
+    <script src="/script.js"></script>
+</body>
+</html>
